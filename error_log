@@ -1,0 +1,167 @@
+[10-Mar-2020 01:37:09 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'mamcodes_gymadmin'@'localhost' (using password: YES) in /home/gamaapps/public_html/gym/includes/connect.php:12
+Stack trace:
+#0 /home/gamaapps/public_html/gym/includes/connect.php(12): PDO->__construct('mysql:host=loca...', 'mamcodes_gymadm...', 'Gym00850560G')
+#1 /home/gamaapps/public_html/gym/includes/core.php(3): require_once('/home/gamaapps/...')
+#2 /home/gamaapps/public_html/gym/index.php(6): require_once('/home/gamaapps/...')
+#3 {main}
+  thrown in /home/gamaapps/public_html/gym/includes/connect.php on line 12
+[10-Mar-2020 01:37:09 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'mamcodes_gymadmin'@'localhost' (using password: YES) in /home/gamaapps/public_html/gym/includes/connect.php:12
+Stack trace:
+#0 /home/gamaapps/public_html/gym/includes/connect.php(12): PDO->__construct('mysql:host=loca...', 'mamcodes_gymadm...', 'Gym00850560G')
+#1 /home/gamaapps/public_html/gym/includes/core.php(3): require_once('/home/gamaapps/...')
+#2 /home/gamaapps/public_html/gym/index.php(6): require_once('/home/gamaapps/...')
+#3 {main}
+  thrown in /home/gamaapps/public_html/gym/includes/connect.php on line 12
+[10-Mar-2020 01:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[10-Mar-2020 01:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[10-Mar-2020 01:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[10-Mar-2020 01:37:47 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[10-Mar-2020 01:37:52 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[12-Mar-2020 09:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:08 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:09 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:42 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:42 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:44 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:44 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:03:47 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:24 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:24 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:24 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:29 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:30 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:38 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:04:39 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:05:37 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:05:47 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:07:54 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:07:54 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:09:14 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:18:56 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:18:56 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:20:46 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:20:49 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:20:57 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:24:33 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:26:57 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:07 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:07 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:07 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:12 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:14 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:18 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:27:18 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:29:27 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:29:31 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:39:25 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:39:32 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[13-Mar-2020 21:40:12 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[22-Mar-2020 15:52:17 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[22-Mar-2020 15:52:30 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[22-Mar-2020 15:52:33 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[22-Mar-2020 15:52:34 Asia/Kolkata] PHP Notice:  Undefined variable: eh in /home/gamaapps/public_html/gym/themes/gama/layout/error.phtml on line 9
+[14-Apr-2020 00:31:14 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:14 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:15 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:15 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:20 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:20 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:21 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:21 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:23 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:23 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:23 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:23 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:31 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:31 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:34 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:34 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:43 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:43 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:44 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:44 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:45 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:45 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:49 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:49 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:50 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:50 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:52 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:52 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:54 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:54 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:58 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:58 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:58 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:58 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:31:59 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:31:59 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:05 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:05 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:08 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:08 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:09 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:09 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:10 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:10 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:16 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:16 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:17 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:17 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 00:32:17 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/css/style.css in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 37
+[14-Apr-2020 00:32:17 Asia/Kolkata] PHP Warning:  filemtime(): stat failed for /home/gamaapps/public_html/zerofood/themes/ehthree/assets/js/core.js in /home/gamaapps/public_html/zerofood/themes/gama/layout/container.phtml on line 87
+[14-Apr-2020 21:21:07 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 21:21:07 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 21:21:07 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:35:52 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:35:52 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:35:52 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:36:32 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:36:32 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:36:32 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:36:41 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:36:41 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:36:41 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:37:14 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:37:14 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:37:14 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:37:21 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:37:21 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:37:21 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:37:28 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:37:28 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:37:28 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[14-Apr-2020 23:37:36 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[14-Apr-2020 23:37:36 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[14-Apr-2020 23:37:36 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[15-Apr-2020 00:06:39 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 00:10:16 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 00:11:52 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 00:11:55 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 01:20:35 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 01:20:35 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[15-Apr-2020 01:20:35 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[15-Apr-2020 08:04:49 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 08:04:49 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[15-Apr-2020 08:04:49 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[15-Apr-2020 17:34:49 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 17:34:49 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[15-Apr-2020 17:34:49 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[15-Apr-2020 19:38:04 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 19:38:04 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[15-Apr-2020 19:38:04 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[15-Apr-2020 19:38:15 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[15-Apr-2020 19:38:15 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[15-Apr-2020 19:38:15 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[16-Apr-2020 05:23:45 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[16-Apr-2020 05:23:45 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[16-Apr-2020 05:23:45 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[16-Apr-2020 05:27:04 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[16-Apr-2020 05:27:04 Asia/Kolkata] PHP Notice:  Undefined index: lat in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 8
+[16-Apr-2020 05:27:04 Asia/Kolkata] PHP Notice:  Undefined index: long in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 9
+[17-Apr-2020 12:56:30 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[17-Apr-2020 12:56:48 Asia/Kolkata] PHP Notice:  Undefined index: mapLocation in /home/gamaapps/public_html/zerofood/themes/gama/layout/userhome/searchresult.phtml on line 7
+[17-Apr-2020 13:06:08 Asia/Kolkata] PHP Warning:  require_once(includes/bcrypt.php): failed to open stream: No such file or directory in /home/gamaapps/public_html/zerofood/includes/connect.php on line 7
+[17-Apr-2020 13:06:08 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'includes/bcrypt.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gamaapps/public_html/zerofood/includes/connect.php on line 7
+[17-Apr-2020 13:06:08 Asia/Kolkata] PHP Warning:  require_once(includes/bcrypt.php): failed to open stream: No such file or directory in /home/gamaapps/public_html/zerofood/includes/connect.php on line 7
+[17-Apr-2020 13:06:08 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'includes/bcrypt.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gamaapps/public_html/zerofood/includes/connect.php on line 7

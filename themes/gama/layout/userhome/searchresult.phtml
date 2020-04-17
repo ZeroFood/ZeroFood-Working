@@ -1,0 +1,124 @@
+<title>Search Result - COVID Food</title>
+<div class="container">
+
+<script>
+function getSearchResult(){
+var dataOne = {
+    q: "<?php echo $_POST['mapLocation']?>",
+    lat: "<?php echo $_POST['lat']?>",
+    long: "<?php echo $_POST['long']?>",
+    radius: "5",
+    status: "LISTED,UNLISTED,DELETED",
+        }
+        console.log(dataOne);
+$.ajax({
+		type: "GET",
+		url: gama_zone()+"/food-centers/?q="+dataOne.q+"&long="+dataOne.long+"&lat="+dataOne.lat,
+		dataType: 'json',
+        contentType: 'application/json',
+        data: "", 
+		cache: false,
+		beforeSend: function() {
+			
+			},
+		success: function(html) {
+            console.log(html)
+            assignToEventsColumns(html);
+		}
+});
+function assignToEventsColumns(data) {
+    
+    var table = $('#myTable').dataTable({
+        paging: true,
+        searching: true,
+        "bAutoWidth" : false,
+        "aaData" : data,
+        "columns" : [ {
+            "data" : "id", render: function (data, type, row, meta) {
+        return meta.row + meta.settings._iDisplayStart + 1;
+        }
+        }, {
+            "data" : "name",
+            "render": function ( data, type, row ) {
+                if(data) {
+                    return '<a style="color:#337ab7;" target="_blank" href="<?php echo $gama['config']['siteUrl']; ?>/foodcenter/'+row._id+'">'+data+'</a>';
+                } else {
+                    return 'not available';
+                }
+            }
+        }, {
+            "data" : "state"
+        }, {
+            "data" : "city"
+        }, {
+            "data" : "address"
+        } ,{
+            "data" : "timings",
+            "render": function ( data, type, row ) {
+                if(data) {
+                    return '<span style="font-size: 11px;">Lunch: <span>'+data.lunch.start+' - '+data.lunch.end+'</span><br/><span>Dinner: '+data.dinner.start+' - '+data.dinner.end+'</span></span>';
+                } else {
+                    return 'not available';
+                }
+            }
+        } ,{
+            "data" : "capacity"
+        } ,{
+            "data" : "contactNumber"
+        } ,{
+            "data" : "location",
+            "render": function ( data, type, row ) {
+                if(data) {
+                    var num = row.dist.calculated*0.001;
+                    var n = num.toFixed(2);
+                    console.log(row.dist.calculated);
+                    return '<button type="button" class="btn btn-indigo btn-sm m-0"><a target="_blank" href="http://www.google.com/maps/place/'+data.coordinates[1]+','+data.coordinates[0]+'">View Map</a></button><div style="font-size: 11px;">'+n+' kms</div>';
+                } else {
+                    return 'not available';
+                }
+            }
+
+        }
+    ],
+    "columnDefs": [
+        {"className": "dt-center", "targets": "_all"}
+      ],
+       
+    })
+}
+}
+getSearchResult();
+</script>
+
+<div class="row align-items-center" style="margin-bottom: 2rem;">
+
+<div class="table-responsive">
+    
+    <span style="margin: 4rem;"> <h3>Nearest Free Food Centers around you</h3></span>
+   <table class="table table-hover" id="myTable">
+       <thead>
+           <tr>
+               <th scope="col">#</th>
+               <th scope="col">Place name</th>
+               <th scope="col">State</th>
+               <th scope="col">City/District</th>
+               <th scope="col">Address</th>                      
+               <th scope="col">Timing</th>
+               <th scope="col">Capacity</th>
+               <th scope="col">Contact</th>
+               <th scope="col">Location</th>
+           </tr>
+</thead>
+
+ 
+</tbody>
+</table>
+</div>
+
+<script>
+
+
+         
+           </div>
+
+   </div>

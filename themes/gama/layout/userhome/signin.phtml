@@ -1,0 +1,77 @@
+<title>Sign In - COVID Food</title>
+<div class="content-body">
+			<div class="container">
+				<div class="row">
+				    
+					<div class="col-sm-4 col-md-offset-3">
+                       
+						<h1 class="page-title">Sign In</h1>
+						
+
+                            <form onsubmit="prevent default();" id="signInForm">
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="text" name="userEmail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <span class="error"></span>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" name="userPassword" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <span class="error"></span>
+                                <small id="emailHelp" class="form-text text-muted"> Special characters allowed : !@#$%^&*()_</small>
+                              </div>
+                              <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                              </div>
+
+                              <a type="submit" onclick="login();" class="btn btn-success btn-block">Sign In</a>
+
+                                <div style="margin-top: 10px; ">
+                                    <div class="control">
+                                        <div style="border-top: 1px solid#888; padding-top:1px; font-size:85%" >
+                                            Don't have an account! 
+                                        <a href="<?php echo $gama['config']['siteUrl']; ?>/signup" class="btn btn-link btn-sm">
+                                            Sign Up Here
+                                        </a>
+                                         </div>
+                                    </div>
+                                 </div> 
+
+                                  <div >
+                                                          
+                                <span style="font-size:85%" >Unable to access your account! 
+                                     <a href="<?php echo $gama['config']['siteUrl']; ?>/resetpassword" class="btn btn-link btn-sm">Reset Password</a>
+                                </span>
+                                    
+                                 </div>
+
+
+
+                            </form>
+
+					</div>
+                     <div class="col-md-4"> 
+ <img class="img-rounded img-responsive center-block" src="<?php echo $gama['config']['themeUrl']; ?>/images/HELP_NEEDY.png" alt="Profile image example" style="margin-bottom: 10px;">
+
+<h4>Food Organisers needed</h4> 
+
+<span>If you can cook for few people from your home or organisation supplying at desginated place you can list yourself on our website. So that needy people nearby you can reach quickly. <br>Please Join us</span>
+
+ <br/>
+
+ <br/>
+<h4>Volunteers needed</h4> 
+<span>We require a large pool of people who can help us list food centers within your city or locality. This is largely a crowdsourced effort. So please signup with us to start working as a home-based volunteer. <br>Please Join us</span>
+ 
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>

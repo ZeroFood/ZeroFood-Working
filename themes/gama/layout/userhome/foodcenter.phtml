@@ -1,0 +1,71 @@
+<title>Food Center - COVID Food</title>
+<script>
+function tConvert(time) {
+  // Check correct time format and split into components
+  time = time.toString ().match (/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [time];
+
+  if (time.length > 1) { // If time format correct
+    time = time.slice (1);  // Remove full string match value
+    time[5] = +time[0] < 12 ? 'AM' : 'PM'; // Set AM/PM
+    time[0] = +time[0] % 12 || 12; // Adjust hours
+  }
+  return time.join (''); // return adjusted time or original string
+}
+function getFoodCenter(){
+$.ajax({
+        type: "GET",
+        url: gama_zone()+"/food-centers/<?php echo $_GET['gamaTwo']?>",
+        dataType: 'json',
+        contentType: 'application/json',
+        data: "", 
+        cache: false,
+        beforeSend: function() {
+                
+                },
+        success: function(html) {
+        $('#foodCenterTitle').html(html.name);
+        $('#foodCenterPhone').html(html.contactNumber);
+        $('#lunchFrom').html(tConvert(html.timings.lunch.start));
+        $('#lunchTo').html(tConvert(html.timings.lunch.end));
+        $('#dinnerFrom').html(tConvert(html.timings.dinner.start));
+        $('#dinnerTo').html(tConvert(html.timings.dinner.end));
+        $('#capacity').html(html.capacity);
+        $('#address').html(html.address);
+        $("#location").attr("src","https://maps.google.com/maps?q="+html.lat+", "+html.long+"&z=15&output=embed");
+        $("#directionsLink").attr("href","http://www.google.com/maps/place/"+html.lat+","+html.long);
+        console.log(html)
+        
+        }
+});
+}
+getFoodCenter()
+</script>
+<div class="content-body">
+			<div class="container">
+				<div class="row">
+
+
+           <div class="col-md-6 col-md-offset-3">
+                   <div class="contact-bg">
+                         <h3 id="foodCenterTitle">Title..........</h3>
+                         <div class="quick-contact-widget"> 
+                               <span><i class="glyphicon glyphicon-earphone"  ></i> <span style="display: inline;" id="foodCenterPhone">9XXXXXXXXXX</span> </span>
+                               <span><i class="glyphicon glyphicon-time" ></i>	Lunch: <span style="display: inline;" id="lunchFrom"></span>–<span style="display: inline;" id="lunchTo"></span> ||
+Dinner: <span style="display: inline;" id="dinnerFrom"></span>–<span style="display: inline;" id="dinnerTo"></span> </span>
+ 							 <span><i class="glyphicon glyphicon-user"></i> Can serve - <span style="display: inline;" id="capacity"></span> people </span>
+                               <span><i class="glyphicon glyphicon-map-marker"></i> <span style="display: inline;" id="address"></span></span>
+                                    
+                           </div>
+                       </div>
+
+                       <div class="p-2 white-bg mt-3">
+                               <iframe id="location" src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                               <a id="directionsLink" target="_blank" href=""><span type="button" class="btn  btn-lg btn-block btn-info glyphicon glyphicon-share-alt "> </span></a>
+                       </div>
+           </div>
+
+				
+
+				</div>
+			</div>
+		</div>

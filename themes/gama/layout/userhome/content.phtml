@@ -1,0 +1,60 @@
+<title>COVID FOOD - List of Free Food Centers Across India</title>
+
+<input type="text" style="display:none;" class="addPostFormHolderInput inputEventStartDate twoInputsLeft eventStreetOne" id="street_number"   name="businessStreetAddressOne" placeholder="Street Address"/>
+<input type="text" style="display:none;"  class="addPostFormHolderInput inputEventEndDate twoInputsRight eventStreetTwo" id="route"   name="businessStreetAddressTwo" placeholder="Street Address 2"/>
+<input type="text" style="display:none;"  class="addPostFormHolderInput oneFourth eventCity" id="locality"   name="businessCity" placeholder="City"/>
+<input type="text" style="display:none;"  class="addPostFormHolderInput oneFifth marginleft30 eventState" id="administrative_area_level_1"   name="businessState" placeholder="State"/>
+<input type="text" style="display:none;"  class="addPostFormHolderInput oneFifth marginleft30 eventCountry" id="country"   name="businessCountry" placeholder="Country"/>
+<input type="text" style="display:none;"  class="addPostFormHolderInput oneFifth marginleft30 eventPostalCode" id="postal_code"   name="businessZipCode" placeholder="Zip Code"/>
+<div class="container">
+    <div class="row">
+        <div class="alert alert-info text-center mb-4" role="alert">Can you help needy people serve free food from your home kitchen? &nbsp; Capacity does not matter,  &nbsp;you can serve 5 or 1,000s. So please Join us as a <a class="alert-link" href="<?php echo $gama['config']['siteUrl']; ?>/signup">Food organizer!</a> <br> 
+        </div>
+    </div>
+</div>
+<script>
+var lat = 17.413399; //default latitude
+var lng = 78.460046; //default longitude
+  </script>
+<div class="container">
+    <div class="row align-items-center" style="margin-top: 4rem;">
+        <div class="col-sm-6 col-md-offset-3">
+            <h2>Find free food centers around you?</h2>
+            <form method="post" id="searchForm" action="<?php echo $gama['config']['siteUrl']; ?>/searchresult">
+            <div id="custom-search-input" style="margin-top: 2rem;">
+                <div class="form-group ">
+                    <input required id="autocomplete" onchange="assignLatLng();" onFocus="geolocate();" name="mapLocation"  type="text" class="form-control input-lg autocomplete-address" placeholder="Location name" />
+                    <div id="map_canvas"></div>
+                    <span class="help-block"> Help needy people find food within 5 kms radius</span>
+	            </div>
+                <script>
+                const interval = setInterval(function() {
+                document.getElementById("searchLat").value = homeMarker.getPosition().lat();
+                document.getElementById("searchLng").value = homeMarker.getPosition().lng();
+                 }, 100);
+                </script>
+                <input type="hidden" id="searchLat" name="lat">
+                <input type="hidden" id="searchLng" name="long">
+            </div>
+
+			<div class="col-md-6 col-md-offset-3">
+                <p style="text-align: center;">
+                    <button type="submit" style="border: 1px solid #cccbcb;" class="btn btn-outline-dark">Search Food Centers</button>			
+                </p>				 		
+            </div>
+        </div>
+        </form>
+        <div class="col-md-6 col-md-offset-3" style="margin-top: 3rem;">
+            <p style="text-align: center;"><small> We are building this as unlicensed project. <br>
+            <a href="https://forms.gle/ZckA8JrCJE2m6sCk9" class="btn-link">Join us as Technical Collaborator</a></small>
+            </p>
+        </div>
+
+		<div class="col-md-6 col-md-offset-3" style="margin-top:  8rem;">
+            <span style="text-align: center;">
+                    <h1 id="foodCenterCount">Loading...</h1>
+            
+            <p  style="text-align: center;">Free Food Centers across India </p>
+            </span>				
+	  	</div>
+	    

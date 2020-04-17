@@ -1,0 +1,82 @@
+<div class="container">	
+				<header id="site-header">
+					<div class="row">
+						<div class="col-md-4 col-sm-5 col-xs-8">
+							<div class="logo">
+								<h1><a href="<?php echo $gama['config']['siteUrl']; ?>"><b>ZERO</b> FOOD </a></h1>
+								<small style="float: left;display:block;">Free Food Initiative for COVID-19 Pandemic </small>
+								<?php
+									if(isset($_SESSION['fullName'])){
+										echo '<small style="float: left;position: absolute;display: grid;margin-top: 15px;">Hello, '.$_SESSION['fullName'].'</small>';
+									}
+								?>
+							</div>
+						</div><!-- col-md-4 -->
+						<div class="col-md-8 col-sm-7 col-xs-4">
+							<nav class="main-nav" role="navigation">
+								<div class="navbar-header">
+	  								<button type="button" id="trigger-overlay" class="navbar-toggle">
+	    								<span class="ion-navicon"></span>
+	  								</button>
+								</div>
+
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  								<ul class="nav navbar-nav navbar-right">
+	    								<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>" data-hover="Home">Home</a></li>    								
+	    								<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/about" data-hover="About">About</a></li>    								
+										<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/contact" data-hover="Contact">Contact</a></li>
+										<?php
+											if(!isset($_SESSION['userEmail'])) {
+										?>
+										<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/create" >List your kitchen</a></li>
+										<?php
+											} else {
+											?>
+										<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/create" >List your kitchen</a></li>                                
+										<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/mylist" data-hover="Mylist">Mylist</a></li> 
+										<?php
+											if($_SESSION['userRole'] == "admin") {
+										?>
+										<li class="cl-effect-11"><a href="<?php echo $gama['config']['siteUrl']; ?>/mylist" data-hover="admin-list">Admin List</a></li>     
+										<?php
+											}
+											?>                          
+										<li class="cl-effect-10"><a href="#" onclick="logout();" data-hover="Logout">Logout</a></li>
+										<?php
+											}
+											?>
+	    								
+	  								</ul>
+								</div><!-- /.navbar-collapse -->
+							</nav>						
+				</header>
+            </div>
+            
+            	<!-- Mobile Menu -->
+			<div class="overlay overlay-hugeinc">
+				<button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
+				<nav>
+					<ul>
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>">Home</a></li>					
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>/about">About</a></li>
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>/contact">Contact</a></li>
+						<?php
+							if(!isset($_SESSION['userEmail'])) {
+						?>
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>/create">List your kitchen</a></li>
+						<?php
+						} else {
+						?>
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>/create">List your kitchen</a></li>
+						<li><a href="<?php echo $gama['config']['siteUrl']; ?>/mylist">Mylist</a></li>
+						<li><a href="#" onclick="logout();">Logout</a></li>
+						<?php
+						}
+						?>
+					</ul>
+				</nav>
+			</div>
+
+			<script>
+				
+			</script>

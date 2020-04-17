@@ -1,0 +1,101 @@
+<title>Sign Up - COVID Food</title>
+<div class="content-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-md-offset-3">
+
+						<h1 class="page-title">Sign Up</h1>
+						
+
+                            <form onsubmit="return false;">
+
+                    <div class="form-group">
+                                <label for="examplefullname1">Full Name</label>
+                                <input type="email" class="form-control" id="examplefullname1" aria-describedby="emailHelp" placeholder="Ex: Jhon Smith">
+                                <span class="error"></span>
+                                
+                              </div>
+
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <span class="error"></span>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                              </div>
+
+                                 <div class="form-group">
+                                <label for="exampleInputphone1">Mobile No</label>
+                                <input type="tel" class="form-control" id="exampleInputphone1" aria-describedby="mobileHelp" placeholder="9XXXXXXXXX">
+                                <span class="error"></span>
+                                <small id="mobileHelp" style="display: block;" class="form-text text-muted">We need you to contact in case of emergency.</small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <span class="error"></span>
+                              </div>
+
+                               <div class="form-group">
+                                <label for="exampleInputPassword2">Re-enter Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                                <span class="error"></span>
+                              </div>
+                              <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I wish to be a Food oragniser or a volunteer</label>
+                              </div>
+                               <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                <label class="form-check-label" for="exampleCheck2">I accept all Terms and Conditions</label>
+                              </div>
+
+                               <a type="submit" onclick="signup();" class="btn btn-success btn-block">Sign up</a>
+
+                                <div class="form-group" style="margin-top: 10px; ">
+                                    <div class="control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                            Have an account!
+                                         <a href="<?php echo $gama['config']['siteUrl']; ?>/signin" class="btn btn-link btn-sm"> Sign in Here</a>
+                                        </div>
+                                     </div>
+                                 </div>
+
+                            </form>
+
+					</div>
+
+                                        
+                    <div class="col-md-4"> 
+ <img class="img-rounded img-responsive center-block" src="<?php echo $gama['config']['themeUrl']; ?>/images/HELP_NEEDY.png" alt="Profile image example" style="margin-bottom: 10px;">
+
+                        <h4>Who are Food Organisers?</h4> 
+                        <ul>
+                            <li>Any Individual cooking from home</li>
+                            <li>Group of people with small kitchen</li>
+                            <li>Restaurants or Hotels</li>
+                            <li>NGOs</li>
+                            <li>Goverments centers</li>
+                            <li>Religious organisations</li>
+                            <li>Social clubs</li>
+                            <li>Any institution who wants to organize free food </li>
+                        </ul>
+
+
+
+                        <h4>Who are Volunteers?</h4> 
+                        <span>People who help us crowdsouce food centers within their area to create and maintain a Food center lisiting. Their primary resposbility is to find food centers in their city or locality. We need lot's of people like you who can crowdsource for us to create an India wide database</span>
+                         
+                         <br/>
+                         <br/>
+
+
+                         <h4>Common Signup</h4> 
+                        <span>We don't have different account types. As creating different experience for each account type is a challenging task given the lack of time. Hence, Functionally the website is minimal and will work for all.  We will also appoint "moderator admins" who will approve, sanitize and ensure most accurate information</span>
+
+                         </div>
+
+
+
+ </div>
+				</div>
+			</div>
